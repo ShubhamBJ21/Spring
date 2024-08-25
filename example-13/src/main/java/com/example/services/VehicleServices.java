@@ -26,16 +26,7 @@ public class VehicleServices {
         return speakers;
     }
 
-    public void setSpeakers(Speakers speakers) {
-        this.speakers = speakers;
-    }
-
-    public Tyres getTyres() {
+    public Tyres getTyres(){
         return tyres;
-    }
-
-    @Autowired
-    public void setTyres(Tyres tyres) {
-        this.tyres = tyres;
     }
 }
