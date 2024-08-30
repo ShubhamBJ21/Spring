@@ -14,7 +14,7 @@ public class Example16 {
          */
 
         System.out.println("Here developer call a spring context to create a bean for a @Lazy annotated component");
-        
+
         LazyLoader lazy = context.getBean(LazyLoader.class);
     }
 }
