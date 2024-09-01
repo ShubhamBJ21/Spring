@@ -1,7 +1,9 @@
 package com.springwithshubham.eazyschool.Model;
 
 import lombok.Data;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 @Data
 public class Holiday {
     private final String day;
